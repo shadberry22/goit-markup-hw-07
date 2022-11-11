@@ -1,14 +1,14 @@
-.features-list {
+.features__list {
   display: flex;
   flex-wrap: wrap;
   gap: var(--main-gap);
 }
 
-.features-item {
+.features__item {
   width: calc((100% - 3 * var(--main-gap)) / 4);
 }
 
-.feature-box {
+.features__box {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,7 +20,7 @@
   background-color: var(--background-light-color);
 }
 
-.features-title {
+.features__title {
   margin-bottom: 10px;
 
   font-size: 14px;
@@ -30,7 +30,7 @@
   color: var(--main-dark-color);
 }
 
-.features-text {
+.features__text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;

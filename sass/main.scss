@@ -7,10 +7,12 @@
 
 @import './utils/variables';
 @import './utils/hidden.scss';
+@import './utils/placeholders';
 
 @import './components/section';
 @import './components/container';
 @import './components/logo';
+@import './components/socials';
 @import './components/filter';
 @import './components/subscribe-form';
 

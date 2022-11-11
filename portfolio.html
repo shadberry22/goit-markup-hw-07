@@ -23,33 +23,35 @@
 
   <body>
     <header class="header">
-      <div class="container header-container">
+      <div class="container header__container">
         <a class="logo link" href="./index.html"
           >Web<span class="secondary-black">Studio</span></a
         >
-        <nav class="header-nav">
-          <ul class="nav-list list">
-            <li><a class="nav-link link" href="./index.html">Студія</a></li>
+        <nav class="navigation">
+          <ul class="nav-menu list">
             <li>
-              <a class="nav-link link current" href="./portfolio.html"
+              <a class="nav-menu__link link" href="./index.html">Студія</a>
+            </li>
+            <li>
+              <a class="nav-menu__link link current" href="./portfolio.html"
                 >Портфоліо</a
               >
             </li>
-            <li><a class="nav-link link" href="">Контакти</a></li>
+            <li><a class="nav-menu__link link" href="">Контакти</a></li>
           </ul>
         </nav>
 
-        <ul class="contacts-list list">
-          <li class="contact-item">
-            <a class="contacts-link link" href="emailto:info@devstudio.com">
-              <svg class="contact-icon" width="16" height="16">
+        <ul class="contacts header__contacts list">
+          <li>
+            <a class="contacts__link link" href="emailto:info@devstudio.com">
+              <svg class="contacts__icon" width="16" height="16">
                 <use href="./images/icons.svg#icon_envelope"></use></svg
               >info@devstudio.com</a
             >
           </li>
           <li>
-            <a class="contacts-link link tel" href="tel:+380961111111">
-              <svg class="contact-icon" width="16" height="16">
+            <a class="contacts__link link tel" href="tel:+380961111111">
+              <svg class="contacts__icon" width="16" height="16">
                 <use href="./images/icons.svg#icon_smartphone"></use>
               </svg>
               +38 096 111 11 11</a
@@ -84,7 +86,6 @@
         <!-- Portfolio Section -->
         <div class="container">
           <ul class="portfolio-list list">
-            
             <li class="portfolio-item">
               <a class="portfolio-link link" href="">
                 <div class="portfolio-image-thumb">
@@ -95,9 +96,14 @@
                     height="294"
                   />
                   <div class="portfolio-overlay">
-                    <p class="portfolio-overlay-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet quisquam error hic quae! Impedit repellendus esse ipsa. Veritatis aliquid libero voluptate maxime in officia cupiditate dolore illo?</p>
+                    <p class="portfolio-overlay-text">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Amet quisquam error hic quae! Impedit repellendus esse
+                      ipsa. Veritatis aliquid libero voluptate maxime in officia
+                      cupiditate dolore illo?
+                    </p>
                   </div>
-                </div>                
+                </div>
                 <div class="portfolio-item-description">
                   <h2 class="portfolio-title">Технокряк</h2>
                   <p class="portfolio-text">Веб-сайт</p>
@@ -115,14 +121,19 @@
                     height="294"
                   />
                   <div class="portfolio-overlay">
-                    <p class="portfolio-overlay-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet quisquam error hic quae! Impedit repellendus esse ipsa. Veritatis aliquid libero voluptate maxime in officia cupiditate dolore illo?</p>
+                    <p class="portfolio-overlay-text">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Amet quisquam error hic quae! Impedit repellendus esse
+                      ipsa. Veritatis aliquid libero voluptate maxime in officia
+                      cupiditate dolore illo?
+                    </p>
                   </div>
                 </div>
                 <div class="portfolio-item-description">
                   <h2 class="portfolio-title">
                     Постер New Orlean vs Golden Star
                   </h2>
-                  <p class="portfolio-text">Дизайн</p>              
+                  <p class="portfolio-text">Дизайн</p>
                 </div>
               </a>
             </li>
@@ -137,15 +148,20 @@
                     height="294"
                   />
                   <div class="portfolio-overlay">
-                    <p class="portfolio-overlay-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet quisquam error hic quae! Impedit repellendus esse ipsa. Veritatis aliquid libero voluptate maxime in officia cupiditate dolore illo?</p>
+                    <p class="portfolio-overlay-text">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Amet quisquam error hic quae! Impedit repellendus esse
+                      ipsa. Veritatis aliquid libero voluptate maxime in officia
+                      cupiditate dolore illo?
+                    </p>
                   </div>
                 </div>
                 <div class="portfolio-item-description">
                   <h2 class="portfolio-title">Ресторан Seafood</h2>
-                  <p class="portfolio-text">Додаток</p>              
+                  <p class="portfolio-text">Додаток</p>
                 </div>
               </a>
-            </li> 
+            </li>
 
             <li class="portfolio-item">
               <a class="portfolio-link link" href="">
@@ -157,12 +173,17 @@
                     height="294"
                   />
                   <div class="portfolio-overlay">
-                    <p class="portfolio-overlay-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet quisquam error hic quae! Impedit repellendus esse ipsa. Veritatis aliquid libero voluptate maxime in officia cupiditate dolore illo?</p>
+                    <p class="portfolio-overlay-text">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Amet quisquam error hic quae! Impedit repellendus esse
+                      ipsa. Veritatis aliquid libero voluptate maxime in officia
+                      cupiditate dolore illo?
+                    </p>
                   </div>
                 </div>
                 <div class="portfolio-item-description">
                   <h2 class="portfolio-title">Проєкт Prime</h2>
-                  <p class="portfolio-text">Маркетинг</p>              
+                  <p class="portfolio-text">Маркетинг</p>
                 </div>
               </a>
             </li>
@@ -177,12 +198,17 @@
                     height="294"
                   />
                   <div class="portfolio-overlay">
-                    <p class="portfolio-overlay-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet quisquam error hic quae! Impedit repellendus esse ipsa. Veritatis aliquid libero voluptate maxime in officia cupiditate dolore illo?</p>
+                    <p class="portfolio-overlay-text">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Amet quisquam error hic quae! Impedit repellendus esse
+                      ipsa. Veritatis aliquid libero voluptate maxime in officia
+                      cupiditate dolore illo?
+                    </p>
                   </div>
                 </div>
                 <div class="portfolio-item-description">
                   <h2 class="portfolio-title">Проєкт Boxes</h2>
-                  <p class="portfolio-text">Додаток</p>              
+                  <p class="portfolio-text">Додаток</p>
                 </div>
               </a>
             </li>
@@ -197,12 +223,17 @@
                     height="294"
                   />
                   <div class="portfolio-overlay">
-                    <p class="portfolio-overlay-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet quisquam error hic quae! Impedit repellendus esse ipsa. Veritatis aliquid libero voluptate maxime in officia cupiditate dolore illo?</p>
+                    <p class="portfolio-overlay-text">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Amet quisquam error hic quae! Impedit repellendus esse
+                      ipsa. Veritatis aliquid libero voluptate maxime in officia
+                      cupiditate dolore illo?
+                    </p>
                   </div>
                 </div>
                 <div class="portfolio-item-description">
                   <h2 class="portfolio-title">Inspiration has no Borders</h2>
-                  <p class="portfolio-text">Веб-сайт</p>              
+                  <p class="portfolio-text">Веб-сайт</p>
                 </div>
               </a>
             </li>
@@ -217,7 +248,12 @@
                     height="294"
                   />
                   <div class="portfolio-overlay">
-                    <p class="portfolio-overlay-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet quisquam error hic quae! Impedit repellendus esse ipsa. Veritatis aliquid libero voluptate maxime in officia cupiditate dolore illo?</p>
+                    <p class="portfolio-overlay-text">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Amet quisquam error hic quae! Impedit repellendus esse
+                      ipsa. Veritatis aliquid libero voluptate maxime in officia
+                      cupiditate dolore illo?
+                    </p>
                   </div>
                 </div>
                 <div class="portfolio-item-description">
@@ -237,12 +273,17 @@
                     height="294"
                   />
                   <div class="portfolio-overlay">
-                    <p class="portfolio-overlay-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet quisquam error hic quae! Impedit repellendus esse ipsa. Veritatis aliquid libero voluptate maxime in officia cupiditate dolore illo?</p>
+                    <p class="portfolio-overlay-text">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Amet quisquam error hic quae! Impedit repellendus esse
+                      ipsa. Veritatis aliquid libero voluptate maxime in officia
+                      cupiditate dolore illo?
+                    </p>
                   </div>
                 </div>
                 <div class="portfolio-item-description">
                   <h2 class="portfolio-title">Проєкт LAB</h2>
-                  <p class="portfolio-text">Маркетинг</p>              
+                  <p class="portfolio-text">Маркетинг</p>
                 </div>
               </a>
             </li>
@@ -257,12 +298,17 @@
                     height="294"
                   />
                   <div class="portfolio-overlay">
-                    <p class="portfolio-overlay-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet quisquam error hic quae! Impedit repellendus esse ipsa. Veritatis aliquid libero voluptate maxime in officia cupiditate dolore illo?</p>
+                    <p class="portfolio-overlay-text">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Amet quisquam error hic quae! Impedit repellendus esse
+                      ipsa. Veritatis aliquid libero voluptate maxime in officia
+                      cupiditate dolore illo?
+                    </p>
                   </div>
                 </div>
                 <div class="portfolio-item-description">
                   <h2 class="portfolio-title">Growing Business</h2>
-                  <p class="portfolio-text">Додаток</p>              
+                  <p class="portfolio-text">Додаток</p>
                 </div>
               </a>
             </li>
@@ -272,16 +318,16 @@
     </main>
 
     <footer class="footer">
-      <div class="footer-container container">
-        <div class="logo-address">
+      <div class="footer__container container">
+        <div class="footer__wrap">
           <a class="logo link" href="./index.html"
             >Web<span class="main-white">Studio</span></a
           >
-          <address class="footer-address">
-            <ul class="footer-list list">
+          <address class="footer__address">
+            <ul class="footer__list list">
               <li>
                 <a
-                  class="footer-link link"
+                  class="footer__link link"
                   href="https://goo.gl/maps/Sf7SDFhJT4M1kA9y5"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -290,13 +336,13 @@
               </li>
               <li>
                 <a
-                  class="footer-link link contacts"
+                  class="footer__link link contacts"
                   href="emailto:info@devstudio.com"
                   >info@devstudio.com</a
                 >
               </li>
               <li>
-                <a class="footer-link link contacts" href="tel:+380961111111"
+                <a class="footer__link link contacts" href="tel:+380961111111"
                   >+38 096 111 11 11</a
                 >
               </li>
@@ -304,61 +350,60 @@
           </address>
         </div>
 
-        <div class="social-links">
-          <p class="social-title">приєднуйтесь</p>
-          <ul class="social-list list">
-                  <li>
-                    <a class="social-link link" href="">
-                      <svg class="social-icon" width="20" height="20">
-                        <use href="./images/icons.svg#icon_instagram"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li>
-                    <a class="social-link link" href="">
-                      <svg class="social-icon" width="20" height="20">
-                        <use href="./images/icons.svg#icon_twitter"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li>
-                    <a class="social-link link" href="">
-                      <svg class="social-icon" width="20" height="20">
-                        <use href="./images/icons.svg#icon_facebook"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li>
-                    <a class="social-link link" href="">
-                      <svg class="social-icon" width="20" height="20">
-                        <use href="./images/icons.svg#icon_linkedin"></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
+        <div class="footer__wrap footer__wrap--right">
+          <p class="footer__title">приєднуйтесь</p>
+          <ul class="socials list">
+            <li>
+              <a class="socials__link socials__link--footer link" href="">
+                <svg class="socials__icon" width="20" height="20">
+                  <use href="./images/icons.svg#icon_instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="socials__link socials__link--footer link" href="">
+                <svg class="socials__icon" width="20" height="20">
+                  <use href="./images/icons.svg#icon_twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="socials__link socials__link--footer link" href="">
+                <svg class="socials__icon" width="20" height="20">
+                  <use href="./images/icons.svg#icon_facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="socials__link socials__link--footer link" href="">
+                <svg class="socials__icon" width="20" height="20">
+                  <use href="./images/icons.svg#icon_linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
         </div>
 
-        <form name="subscription_form" class="subscribe-form">
-          <label for="subscribe-email" class="subscribe-title"
+        <form name="subscription-form" class="subscribe-form">
+          <label for="email" class="subscribe-form__title"
             >Підпишіться на розсилку</label
           >
-          <div class="input-button-wrap">
+          <div class="subscribe-form__wrap">
             <input
-              class="subscribe-field"
+              class="subscribe-form__field"
               type="email"
               name="email"
-              id="subscribe-email"
+              id="email"
               placeholder="E-mail"
             />
-            <button class="subscribe-button" type="submit">
-              <span class="subscribe-button-title">Підписатися</span>
-              <svg class="subscribe-icon" width="24" height="24">
+            <button class="subscribe-form__button" type="submit">
+              <span class="subscribe-form__name">Підписатися</span>
+              <svg class="subscribe-form__icon" width="24" height="24">
                 <use href="./images/icons.svg#subscribe_icon"></use>
               </svg>
             </button>
           </div>
         </form>
-      
       </div>
     </footer>
   </body>

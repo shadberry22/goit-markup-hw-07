@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.clients-title {
+.clients__title {
   margin-bottom: 50px;
 
   font-size: 36px;
@@ -11,13 +11,13 @@
   color: var(--main-dark-color);
 }
 
-.clients-list {
+.clients__list {
   display: flex;
   flex-wrap: wrap;
   gap: var(--main-gap);
 }
 
-.client-item {
+.clients__item {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,7 +26,7 @@
   height: 92px;
 }
 
-.client-link {
+.clients__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -47,6 +47,6 @@
   }
 }
 
-.client-icon {
+.clients__icon {
   fill: currentColor;
 }

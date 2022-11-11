@@ -3,7 +3,7 @@
   text-align: center;
 }
 
-.activities-title {
+.activities__title {
   margin-bottom: 50px;
 
   font-size: 36px;
@@ -12,20 +12,20 @@
   color: var(--main-dark-color);
 }
 
-.activities-list {
+.activities__list {
   display: flex;
   flex-wrap: wrap;
 
   gap: var(--main-gap);
 }
 
-.activities-item {
+.activities__item {
   position: relative;
 
   width: calc((100% - 2 * var(--main-gap)) / 3);
 }
 
-.activity-title-wrap {
+.activities__wrap {
   position: absolute;
   bottom: 0;
 
@@ -35,7 +35,7 @@
   background-color: rgba(47, 48, 58, 0.8);
 }
 
-.activity-title {
+.activities__name {
   font-size: 14px;
   line-height: 1.14;
   text-align: center;
