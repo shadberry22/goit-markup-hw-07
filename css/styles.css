@@ -828,7 +828,7 @@ img {
 
 /* -----Request Form----- */
 .request-form {
-  width: 448px;
+  max-width: 448px;
   }
 
 .request-title {
@@ -987,7 +987,7 @@ img {
 .privacy {
   color: var(--accent-color);
   margin-left: 7px;
-}
+  }
 
 .request-button-wrap {
   display: flex;
