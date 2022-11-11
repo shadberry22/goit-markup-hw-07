@@ -40,10 +40,10 @@
 
   background-color: rgba(33, 150, 243, 0.9);
   overflow: auto;
-}
 
-.portfolio-item:hover .portfolio-overlay {
-  transform: translateY(0);
+  .portfolio-item:hover & {
+    transform: translateY(0);
+  }
 }
 
 .portfolio-overlay-text {

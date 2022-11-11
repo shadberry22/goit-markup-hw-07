@@ -17,8 +17,6 @@
   gap: 9px;
 }
 
-/* -----Footer Contacts----- */
-
 .footer-address {
   margin-top: 20px;
 
@@ -32,15 +30,15 @@
   color: var(--main-white-color);
 
   transition: color var(--transition-time) var(--transition-function);
-}
 
-.footer-link.contacts {
-  color: rgba(255, 255, 255, 0.6);
-}
+  &.contacts {
+    color: rgba(255, 255, 255, 0.6);
+  }
 
-.footer-link:hover,
-.footer-link:focus {
-  color: var(--accent-color);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 
 /* -----Social Links----- */
@@ -75,13 +73,13 @@
   color: var(--main-white-color);
 
   transition: background-color var(--transition-time) var(--transition-function);
+
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
 }
 
 .social-icon {
   fill: currentColor;
-}
-
-.social-link:hover,
-.social-link:focus {
-  background-color: var(--accent-color);
 }

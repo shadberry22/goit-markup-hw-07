@@ -17,6 +17,10 @@
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+
+  & .modal-window {
+    transform: translate(-50%, -50%) scale(0);
+  }
 }
 
 .modal-window {
@@ -24,17 +28,13 @@
   top: 50%;
   left: 50%;
   padding: 40px;
-  
+
   transform: translate(-50%, -50%) scale(1);
   transition: transform var(--transition-time) var(--transition-function);
 
   min-width: 528px;
 
   background-color: var(--main-white-color);
-}
-
-.backdrop.is-hidden .modal-window {
-  transform: translate(-50%, -50%) scale(0);
 }
 
 .modal-button {
@@ -55,21 +55,21 @@
 
   background: transparent;
   cursor: pointer;
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 
 .close-icon {
   fill: currentColor;
 }
 
-.modal-button:hover,
-.modal-button:focus {
-  color: var(--accent-color);
-}
-
 /* -----Request Form----- */
 .request-form {
   max-width: 448px;
-  }
+}
 
 .request-title {
   margin-bottom: 12px;
@@ -117,18 +117,10 @@
   color: var(--secondary-gray-color);
 
   transition: border var(--transition-time) var(--transition-function);
-}
 
-.request-field:focus {
-  border: 1px solid var(--accent-color);
-}
-
-.request-field + .request-icon {
-  transition: var(--transition-time) var(--transition-function);
-}
-
-.request-field:focus + .request-icon {
-  fill: var(--accent-color);
+  &:focus {
+    border: 1px solid var(--accent-color);
+  }
 }
 
 .request-icon {
@@ -137,6 +129,14 @@
   left: 12px;
   transform: translateY(50%);
   fill: currentColor;
+
+  .request-field + & {
+    transition: var(--transition-time) var(--transition-function);
+  }
+
+  .request-field:focus + & {
+    fill: var(--accent-color);
+  }
 }
 
 .request-comment-wrap {
@@ -151,13 +151,6 @@
   line-height: 1.17;
   letter-spacing: 0.01em;
   color: var(--secondary-gray-color);
-}
-
-.request-comment-area::placeholder {
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.01em;
-  color: rgba(117, 117, 117, 0.5);
 }
 
 .request-comment-area {
@@ -176,10 +169,17 @@
   cursor: pointer;
 
   transition: border var(--transition-time) var(--transition-function);
-}
 
-.request-comment-area:focus {
-  border: 1px solid var(--accent-color);
+  &::placeholder {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.01em;
+    color: rgba(117, 117, 117, 0.5);
+  }
+
+  &:focus {
+    border: 1px solid var(--accent-color);
+  }
 }
 
 .request-checkbox-wrap {
@@ -227,7 +227,7 @@
 .privacy {
   color: var(--accent-color);
   margin-left: 7px;
-  }
+}
 
 .request-button-wrap {
   display: flex;

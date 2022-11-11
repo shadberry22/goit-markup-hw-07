@@ -65,16 +65,16 @@
   color: var(--icon-gray-color);
   background-color: var(--main-white-color);
 
+  &:hover,
+  &:focus {
+    color: var(--main-white-color);
+    background-color: var(--accent-color);
+  }
+
   transition: color var(--transition-time) var(--transition-function),
     background-color var(--transition-time) var(--transition-function);
 }
 
 .team-soc-icon {
   fill: currentColor;
-}
-
-.team-soc-link:hover,
-.team-soc-link:focus {
-  color: var(--main-white-color);
-  background-color: var(--accent-color);
 }
